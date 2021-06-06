@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Italianno;
+    color: white;
+    font-weight: normal;
+    font-size: 150px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Crimson Text;
+    color: white;
+    font-weight: 50;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Times;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li {
+    line-height: 1.7;
+    font-style: italic;
+    float: none;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: Times;
+}
+
+main {
+    padding-top: 45px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+.container {
+    position: relative;
+    text-align: justify;
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+    height: auto;
+    margin-top: auto;
+}
+
+#tribute-info {
+    background-color: #999999;
+    border-radius: 8px;
+    color: black;
+}
+
+
+/*--Media Queries--*/
+
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 100%;
+    }
+    ul {
+        max-width: 100%;
+    }
+    #main {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        max-width: 100%;
+        text-align: justify;
+    }
+    #img-div {
+        max-width: 100%;
+    }
+    li {
+        max-width: 100%;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 100%;
+        text-align: justify;
+    }
+    #img-div {
+        max-width: 100%;
+    }
+    li {
+        max-width: 100%;
+        text-align: justify;
+    }
+}
